@@ -1,0 +1,17 @@
+一、上传项目文件到github
+1.进入到项目文件目录
+2.git GUI here
+3.Create a new repository,拷贝ssh(github官网创建)
+4.git init
+5.1.git remote add origin git@github.com:TinghuanWang/pacifier.git(第一次origin)
+5.2.git remote add origin
+6.git pull --rebase origin master
+7.git push -u origin master
+
+
+
+二、更新至本地
+1.进入到项目文件的目录
+2.git bash here
+3.git init
+4.git pull
